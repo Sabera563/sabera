@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <title>
+        layout
+    </title>
+
+    <style>
+       
+
+        #flex-container {
+            display:block;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: beige;
+            color: brown;
+        }
+
+        img{
+            max-height: 200px;
+            max-width: 150px;
+        }
+
+    #project{
+            display: flex;
+            
+            padding: 30px;
+           
+        }
+        .card {
+            background-color: aqua;
+            padding: 10px;
+            margin: 50px;
+            flex: 1 1 calc(33.33% - 20px);
+        }
+    </style>
+</head>
+
+<body>
+    
+        <div id="flex">
+            <div id="flex-container">
+                <h1> I am Sabera maharjan</h1>
+                <img src="./a.png">
+                
+
+        
+
+                <div id="inline">
+                    <a href="contact"> Contact</a>
+                    <a href="about">About</a>
+                    <a href="portfilo">portifilo</a>
+                </div>
+            </div>
+        </div>
+            
+
+            <div id="project">
+                <div class="card" id="project-1">
+                    <p>Project-1</p>
+                </div>
+                <div class="card" id="project-2">
+                    <p>Project-2</p>
+                </div>
+                <div class="card" id="project-3">
+                    <p>Project-3</p>
+                </div>
+            </div>
+        </div>
+   
+</body>
+
+</html>

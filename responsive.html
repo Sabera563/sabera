@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Document</title>
+
+        <style>
+            .container{
+                display: grid;
+                grid-template-columns:1fr 1fr;
+                gap: 20px;
+                padding: 20px;
+
+            }
+
+            .column{
+                background-color: rgb(247, 213, 213);
+                padding:15px;
+                border:2px solid pink;
+                text-align: center;
+            }
+
+            @media (max-width:600px){
+                .container{
+                    grid-template-columns: 1fr;
+                }
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="column">
+                Column-1
+            </div>
+         <div>
+
+            <div class="column">
+                Column-2
+            </div>
+         </div>
+         <div>
+
+    </body>
+</html>
